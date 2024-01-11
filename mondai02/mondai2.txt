@@ -1,0 +1,5 @@
+問題2_1
+		ア：int
+		イ：String
+		ウ：String
+		エ：double
