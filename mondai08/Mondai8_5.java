@@ -2,8 +2,7 @@ import java.util.*;
 public class Mondai8_5 {
     public static void main(String[] args) {
 
-        List<Integer> list = new ArrayList<>(); //Integer型のListを作成
-        list.add(1); list.add(2); list.add(3); list.add(4); list.add(5);    //listに要素を追加
+        List<Integer> list = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5)); //Integer型のListを作成  
         int size = list.size(); //listのサイズをsizeに代入
         int sum = 0;    //合計値をいれるsumを設定
         double average ;    //平均値をいれるaverageを設定
