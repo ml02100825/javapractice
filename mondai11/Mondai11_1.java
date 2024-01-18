@@ -10,7 +10,7 @@ public class Mondai11_1 {
         Circle calculation = new Circle(radius);
         double area = calculation.circlearea();
         double ference = calculation.circumference();
-        System.out.println("円周の長さは"+ ference+ "です。");
+        System.out.println("円周の長さは"+ ference + "です。");
         System.out.println("円の面積は"+(Math.floor(area * 1000)/1000)+ "です。");
         }
     

@@ -1,7 +1,7 @@
 
 public class Calculation {
-    int x;
-    int y;
+    private int x;
+    private int y;
     Calculation(int x, int y){
         this.x = x;
         this.y = y;
