@@ -1,11 +1,7 @@
 
 public class Calculation {
-    private int x;
-    private int y;
-    Calculation(int x, int y){
-        this.x = x;
-        this.y = y;
-    }
+    private static int x=100;
+    private static int y=200;
    
     public int getsum(){
         int sum = 0;
@@ -14,6 +10,12 @@ public class Calculation {
             sum += i;
         }
         return sum;
+    }
+    public int getx(){
+        return x;
+    }
+    public int gety(){
+        return y;
     }
             
         }

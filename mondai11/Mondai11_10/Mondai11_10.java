@@ -2,7 +2,6 @@ public class Mondai11_10 {
     public static void main(String[] args) {
         
         BookInfo book1 = new BookInfo("三国志", "吉川英治", 1989);
-        book1.setBooknumber(1);
         BookInfo book2 = new BookInfo("楊令伝", "北方謙三", 2011);
         BookInfo book3 = new BookInfo("竜馬がゆく", "司馬遼太郎", 1998);
         BookInfo book4 = new BookInfo("坊っちゃん", "夏目漱石", 1906);
@@ -10,11 +9,11 @@ public class Mondai11_10 {
         System.out.println("書　  名："+book1.getbookname());
         System.out.println("著 者 名：" +book1.getwritername());
         System.out.println("出 版 年："+book1.getpublicationyear());
-        System.out.println("書籍番号：" +book1.booknumber);
+        System.out.println("書籍番号：" +book1.getbooknumber());
         System.out.println("書　  名："+book2.getbookname());
         System.out.println("著 者 名：" +book2.getwritername());
         System.out.println("出 版 年："+book2.getpublicationyear());
-        System.out.println("書籍番号："+book2.booknumber);
+        System.out.println("書籍番号："+book2.getbooknumber());
         System.out.println("書　  名："+book3.getbookname());
         System.out.println("著 者 名：" +book3.getwritername());
         System.out.println("出 版 年："+book3.getpublicationyear());
