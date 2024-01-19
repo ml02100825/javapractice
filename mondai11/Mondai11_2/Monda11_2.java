@@ -5,7 +5,7 @@ public class Monda11_2 {
         Calculation answer = new Calculation();
         int sum = answer.getsum();
         
-        System.out.println( answer.getx()+ "から"+ answer.gety()  + "の合計値は"+ sum + "です。" );
+        System.out.println( answer.x+ "から"+ answer.y  + "の合計値は"+ sum + "です。" );
 
     }
 }

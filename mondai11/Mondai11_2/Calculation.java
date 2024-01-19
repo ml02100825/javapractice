@@ -1,7 +1,8 @@
 
 public class Calculation {
-    private static int x=100;
-    private static int y=200;
+    public static int x=100;
+    public static int y=200;
+
    
     public int getsum(){
         int sum = 0;
