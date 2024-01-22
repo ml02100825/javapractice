@@ -6,7 +6,7 @@ public class PaperBook extends Book{
         super(title, auther, price);
         this.page = page;
     }
-    public void dispinfo(){
+    @Override public void dispinfo(){
         int count = gatCounter(); 
         System.out.println("書名：" + title);
         System.out.println("著者名：" + auther);

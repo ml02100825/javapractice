@@ -6,7 +6,7 @@ public class EBook extends Book{
         super(title, auther, price);
         this.fileSize = fileSize;
     }
-    public void dispinfo(){
+    @Override public void dispinfo(){
         int count = gatCounter(); 
         System.out.println("書名：" + title);
         System.out.println("著者名：" + auther);

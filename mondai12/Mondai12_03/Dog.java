@@ -4,7 +4,7 @@ public class Dog extends Animal{
     Dog(String name, int length){
         super(name, length);
     }
-    public void move(){
+    @Override public void move(){
 
         System.out.println(name + "は" + length + "メートル走りました。");
     }

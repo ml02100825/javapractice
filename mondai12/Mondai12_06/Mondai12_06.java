@@ -11,7 +11,7 @@ public class Mondai12_06 {
         EBook book4 = new EBook("Web技術の仕組み", "www.org", 4530, 12458);
         book4.dispinfo();
         int totalnumber = book4.gatCounter() -1;
-        System.out.println("与えた識別番号 ＝" + totalnumber);
+        System.out.println("与えた識別番号 ＝ " + totalnumber);
 
         
     }
