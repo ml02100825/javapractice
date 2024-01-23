@@ -6,7 +6,7 @@ public class Dog extends Animal{
     }
     @Override public void move(){
 
-        System.out.println(name + "は" + length + "メートル走りました。");
+        System.out.println(this.name + "は" + this.length + "メートル走りました。");
     }
     
 }

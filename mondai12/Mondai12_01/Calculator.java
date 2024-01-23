@@ -8,7 +8,7 @@ public class Calculator {
         this.y = y;
     }
     public int calcSum(){
-        int sum = x + y;
+        int sum = this.x + this.y;
         return sum;
     }
     public int calcAve(){

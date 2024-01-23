@@ -12,7 +12,7 @@ public class ITStudent extends BasicStudent{
     }
     @Override
     public double calcAve() {
-        double ave = ((double)html + (double)java + (double)javaScript) / 3;
+        double ave = ((double)this.html + (double)this.java + (double)this.javaScript) / 3;
         return ave;
         
     }

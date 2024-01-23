@@ -5,8 +5,8 @@ public class MoreCalc extends Calculator{
     
     public int calcPow(){
         int pow = 1;
-        for (int i = 0; i < y; i++){
-            pow *= x;
+        for (int i = 0; i < this.y; i++){
+            pow *= this.x;
         }
         return pow;
     }

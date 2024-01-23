@@ -6,9 +6,9 @@ public class Dog extends Animal{
     }
     public void move(){
 
-        System.out.println(name + "は" + length + "メートル走りました。");
+        System.out.println(this.name + "は" + this.length + "メートル走りました。");
     }
     public void eat(){
-        System.out.println(name + "は" + food + "を食べました。");
+        System.out.println(this.name + "は" + this.food + "を食べました。");
     }
 }

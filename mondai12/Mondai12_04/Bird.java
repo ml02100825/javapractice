@@ -5,9 +5,9 @@ public class Bird extends Animal{
         super(name, length, food);
     }
     @Override public void move(){
-        System.out.println(name + "は" + length + "メートル飛びました。");
+        System.out.println(this.name + "は" + this.length + "メートル飛びました。");
     }
     @Override public void eat(){
-        System.out.println(name + "は" + food + "を食べました。");
+        System.out.println(this.name + "は" + this.food + "を食べました。");
     }
 }

@@ -11,8 +11,8 @@ public class Teacher implements Person {
         this.subject = subject;
     }
     @Override public void introduce() {
-        System.out.println("氏名：" + name);
-        System.out.println("職種：" + job);
-        System.out.println("担当科目：" + subject);
+        System.out.println("氏名：" + this.name);
+        System.out.println("職種：" + this.job);
+        System.out.println("担当科目：" + this.subject);
     }
 }

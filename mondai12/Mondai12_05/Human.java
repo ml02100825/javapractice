@@ -5,11 +5,11 @@ public class Human extends Animal{
         super(name, length, food);
     }
     public void move(){
-        System.out.println(name + "は" + length + "メートル歩きました。");
+        System.out.println(this.name + "は" + this.length + "メートル歩きました。");
     }
     
     public void eat(){
-        System.out.println(name + "は" + food + "を食べました。");
+        System.out.println(this.name + "は" + this.food + "を食べました。");
     }
     
 }

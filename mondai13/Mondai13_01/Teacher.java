@@ -7,9 +7,9 @@ public class Teacher extends Person{
         this.subject =subject;
     }
     @Override public void introduce(){
-        System.out.println("氏名：" + name);
-        System.out.println("職業；" + job);
-        System.out.println("科目：" + subject);
+        System.out.println("氏名：" + this.name);
+        System.out.println("職業；" + this.job);
+        System.out.println("科目：" + this.subject);
         System.out.println();
     }
     

@@ -22,6 +22,7 @@ public class Mondai11_8 {
             System.out.println("名前：" + name + "年齢：" + age + "住所：" + liveadress + "メールアドレス：" + mailadress + " 異常");
             }
         }
+        stdIn.nextInt
         }
         
     }

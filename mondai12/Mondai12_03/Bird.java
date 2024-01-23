@@ -5,7 +5,7 @@ public class Bird extends Animal{
         super(name, length);
     }
     @Override public void move(){
-        System.out.println(name + "は" + length + "メートル飛びました。");
+        System.out.println(this.name + "は" + this.length + "メートル飛びました。");
     }
     
 }

@@ -5,7 +5,7 @@ public class Whale extends Animal{
         super(name, length);
     }
     @Override public void move(){
-        System.out.println(name + "は" + length + "キロメートル泳ぎました。");
+        System.out.println(this.name + "は" + this.length + "キロメートル泳ぎました。");
     }
     
 }

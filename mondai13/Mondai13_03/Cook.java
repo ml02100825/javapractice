@@ -10,8 +10,8 @@ public class Cook implements Person{
         this.specialies = specialies;
     }
     @Override public void introduce(){
-        System.out.println("氏名："+ name);
-        System.out.println("職種：" + job);
-        System.out.println("得意料理：" + specialies);
+        System.out.println("氏名："+ this.name);
+        System.out.println("職種：" + this.job);
+        System.out.println("得意料理：" + this.specialies);
     }
 }

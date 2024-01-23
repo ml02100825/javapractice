@@ -8,11 +8,11 @@ public class PaperBook extends Book{
     }
     @Override public void dispinfo(){
         int count = gatCounter(); 
-        System.out.println("書名：" + title);
-        System.out.println("著者名：" + auther);
-        System.out.println("価格：" + price + "円");
+        System.out.println("書名：" + this.title);
+        System.out.println("著者名：" + this.auther);
+        System.out.println("価格：" + this.price + "円");
         System.out.println("識別番号：" + count );
-        System.out.println("ページ数：" + page + "ページ");
+        System.out.println("ページ数：" + this.page + "ページ");
         System.out.println();
     }
     

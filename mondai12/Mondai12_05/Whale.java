@@ -5,10 +5,10 @@ public class Whale extends Animal{
         super(name, length, food);
     }
     public void move(){
-        System.out.println(name + "は" + length + "キロメートル泳ぎました。");
+        System.out.println(this.name + "は" + this.length + "キロメートル泳ぎました。");
     }
     
     public void eat(){
-        System.out.println(name + "は" + food + "を食べました。");
+        System.out.println(this.name + "は" + this.food + "を食べました。");
     }
 }

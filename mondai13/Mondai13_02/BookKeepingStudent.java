@@ -11,7 +11,7 @@ public class BookKeepingStudent extends BasicStudent{
     }
     @Override
     public double calcAve(){
-        double ave = ((double)accouting + (double)business) /2;
+        double ave = ((double)this.accouting + (double)this.business) /2;
         return ave;
     }
 }
