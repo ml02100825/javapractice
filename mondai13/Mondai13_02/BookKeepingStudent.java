@@ -1,17 +1,22 @@
 package Mondai13_02;
 
 public class BookKeepingStudent extends BasicStudent{
-    int accouting;
-    int business;
+    int accouting;  //  会計学の点数
+    int business;   //　ビジネスの点数
+    //---------------[ コンストラクタ ]------------------------
     BookKeepingStudent(String name, String no, String schoolname, int accouting, int business){
-        super(name, no, schoolname);
-        this.accouting = accouting;
-        this.business = business;
-        
+        super(name, no, schoolname);    // 名前と学生番号と学校名を継承
+        this.accouting = accouting;     // 会計学の点数
+        this.business = business;       // ビジネスの点数
     }
-    @Override
-    public double calcAve(){
+    //---------------------------------------------------------
+    //-----[ メソッド ]--------
+    //  オーバーライド　各テストの平均点数を求めるメソッド(戻り値はdouble型)
+    @Override public double calcAve(){
+        //  aveに計算結果を代入
         double ave = ((double)this.accouting + (double)this.business) /2;
+        // aveを返す
         return ave;
     }
+    //-----------------------
 }
