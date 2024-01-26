@@ -1,8 +1,8 @@
 package Mondai13_02;
 
 public class BookKeepingStudent extends BasicStudent{
-    int accouting;  //  会計学の点数
-    int business;   //　ビジネスの点数
+    private int accouting;  //  会計学の点数
+    private int business;   //　ビジネスの点数
     //---------------[ コンストラクタ ]------------------------
     BookKeepingStudent(String name, String no, String schoolname, int accouting, int business){
         super(name, no, schoolname);    // 名前と学生番号と学校名を継承

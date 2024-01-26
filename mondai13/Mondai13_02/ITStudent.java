@@ -1,9 +1,9 @@
 package Mondai13_02;
 
 public class ITStudent extends BasicStudent{
-    int html;       // htmlの点数
-    int javaScript; // javaScriptの点数
-    int java;       // javaの点数
+    private int html;       // htmlの点数
+    private int javaScript; // javaScriptの点数
+    private int java;       // javaの点数
     //-----------------------[ コンストラクタ ]--------------------------
     ITStudent(String name, String no, String schoolname,  int html, int javaScript, int java){
         super(name, no, schoolname);    // 名前と学生番号と学校名を継承

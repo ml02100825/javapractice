@@ -41,7 +41,7 @@ public class Mondai13_02 {
         double itave = itstudent.calcAve();
 
         //  結果を出力
-        System.out.println(bookkeeping.schoolname + "の学生番号"+ bookkeeping.no +" "+ bookkeeping.name + "さんの平均点は" + (Math.floor(bookave * 10)/100)+ "です。");
-        System.out.println(itstudent.schoolname + "の学生番号" + itstudent.no + " " + itstudent.name + "さんの平均点は" + (Math.floor(itave * 10)/10) + "です。");
+        System.out.println(bokischool + "の学生番号"+ bokino +" "+ bokiname + "さんの平均点は" + (Math.floor(bookave * 10)/10)+ "です。");
+        System.out.println(itschool + "の学生番号" + itno + " " + itname + "さんの平均点は" + (Math.floor(itave * 10)/10) + "です。");
     }
 }
