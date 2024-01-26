@@ -19,20 +19,20 @@ public class Mondai15_05 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
         try{
-        int [] base_list = {1, 2, 3, 4, 5};
-        System.out.println("元のリスト = " + Arrays.toString(base_list));
-        System.out.print("インデックス番号 ＝ ");
-        int indexnumber = stdIn.nextInt();
-        int size = base_list.length;
-        if(decision(base_list, indexnumber, size) == true){
-            System.out.println("base_list[" + indexnumber + "] = " + base_list[indexnumber] + "は偶数です。");
-        }
-        else{
-            System.out.println("base_list[" + indexnumber + "] = " + base_list[indexnumber] + "は偶数ではありません  。");
-        }
-    } catch(ArrayIndexOutOfBoundsException e){
+            int [] base_list = {1, 2, 3, 4, 5};
+            System.out.println("元のリスト = " + Arrays.toString(base_list));
+            System.out.print("インデックス番号 ＝ ");
+            int indexnumber = stdIn.nextInt();
+            int size = base_list.length;
+            if(decision(base_list, indexnumber, size) == true){
+                System.out.println("base_list[" + indexnumber + "] = " + base_list[indexnumber] + "は偶数です。");
+            }
+            else{
+                System.out.println("base_list[" + indexnumber + "] = " + base_list[indexnumber] + "は偶数ではありません  。");
+            }
+     } catch(ArrayIndexOutOfBoundsException e){
         System.out.println("インデックス番号に負の値を設定しています");
-    }catch(IndexOutOfBoundsException e){
+    } catch(IndexOutOfBoundsException e){
         System.out.println("領域外参照です。");
     }
     System.out.println("処理終了");

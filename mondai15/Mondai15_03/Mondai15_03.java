@@ -9,9 +9,9 @@ public class Mondai15_03 {
         System.out.print("インデックス番号 ＝ ");
         int indexnumber = stdIn.nextInt();
         System.out.println("base_list[" + indexnumber + "] ＝ " + baselist[indexnumber]);
-    }catch (IndexOutOfBoundsException e){
-        System.out.println("領域外参照です");
-    }
+        }catch (IndexOutOfBoundsException e){
+            System.out.println("領域外参照です");
+        }
     System.out.println("終了");
 }   
 }
